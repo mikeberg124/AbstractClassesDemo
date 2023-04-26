@@ -57,7 +57,7 @@ namespace ConsoleUI
 
             foreach (var mobile in vehicles)
             {
-                Console.WriteLine($"Make: {mobile.Make}, Model: {mobile.Model}, Year: {mobile:Year}");
+                Console.WriteLine($"Make: {mobile.Make}, Model: {mobile.Model}, Year: {mobile.Year}");
                 mobile.DriveAbstract();
                 Console.WriteLine("----------");
             }
